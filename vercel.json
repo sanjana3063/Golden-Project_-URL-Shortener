@@ -1,0 +1,20 @@
+{
+    "routes": [
+      {
+        "src": "/",
+        "dest": "/src/index.html"
+      },
+      {
+        "src": "/main.js",
+        "dest": "/src/main.js"
+      },
+      {
+        "src": "/style.css",
+        "dest": "/src/style.css"
+      },
+      {
+        "src": "/.*",
+        "dest": "/api/url"
+      }
+    ]
+  }
